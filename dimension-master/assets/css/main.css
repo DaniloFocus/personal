@@ -1236,6 +1236,14 @@ input, select, textarea {
 			background-color: #000000;
 		}
 
+
+
+#wrapper #main #work .service-link .service-card{
+	width: 100%!important;
+	height: 150px!important;																																																																																																																																								
+	border: 1px solid green;
+
+}		
 /* Wrapper */
 
 	#wrapper {
