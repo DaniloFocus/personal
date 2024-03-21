@@ -141,7 +141,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "McLaren", sans-serif;
+		font-family: "Finlandica", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1594,7 +1594,12 @@ input, select, textarea {
 				}
 
 		}
-
+		#header > div.content > div > h1{
+			font-family: "Six Caps", sans-serif;
+  			font-weight: 300;
+  			font-style: normal;
+  			font-size: 55px;
+}
 /* Main */
 
 	#main {
