@@ -1249,6 +1249,7 @@ input, select, textarea {
 	align-items: center;
 	margin-bottom: 25px;
     border-radius: 10px;
+	background-color: #fff;
 
 }	
 #wrapper #main #work .service-link .service-card:hover{
@@ -1257,6 +1258,13 @@ input, select, textarea {
 }
 #wrapper #main #work .service-link .service-card .icon{
 	transition: transform 0.3s ease;
+	color: #000000;
+}
+#wrapper #main #work .service-link .service-card h3{
+	color: #000000;
+}
+#wrapper #main #work .service-link .service-card p{
+	color: #000000;
 }
 #wrapper #main #work .service-link .service-card:hover .icon{
 	transform: scale(1.1);
