@@ -68,7 +68,7 @@
 
 
 	// Exibe o loader quando a página começa a ser carregada
-	document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
 	document.getElementById("loader").style.display = "block";
   });
   
