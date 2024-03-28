@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 1rem;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -1435,7 +1435,7 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
@@ -1468,7 +1468,7 @@ input, select, textarea {
 					
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 1rem;
 					border-bottom: 0;
 				}
 
@@ -1747,7 +1747,7 @@ input, select, textarea {
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.8rem;
+			font-size: 1rem;
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
