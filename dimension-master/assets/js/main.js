@@ -65,6 +65,19 @@
 
 			}
 
+
+
+	// Exibe o loader quando a página começa a ser carregada
+	document.addEventListener("DOMContentLoaded", function() {
+	document.getElementById("loader").style.display = "block";
+  });
+  
+  // Remove o loader e exibe o conteúdo quando a página é completamente carregada
+  window.addEventListener("load", function() {
+	document.getElementById("loader").style.display = "none";
+	document.getElementById("wrapper").style.display = "block";
+  });
+
 	// Main.
 		var	delay = 325,
 			locked = false;
