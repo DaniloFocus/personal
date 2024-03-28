@@ -1216,7 +1216,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/background.webp");
-			filter: blur(2px);
+			filter: blur(1px);
 			
 			
 			background-position: center;
@@ -1224,12 +1224,17 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
-
-		@media only screen and (max-width: 430px) {
+		@media only screen and (max-width: 770px) {
+			#bg:after {
+				background-image: url("../../images/background.tablet.png");
+			}
+		}
+		/* @media only screen and (max-width: 430px) {
 			#bg:after {
 				background-image: url("../../images/background-mobile.webp");
 			}
-		}
+		} */
+		
 
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
