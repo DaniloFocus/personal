@@ -1227,7 +1227,8 @@ input, select, textarea {
 		}
 		@media only screen and (max-width: 770px) {
 			#bg:after {
-				background-image: url("../../images/background.tablet.png");
+				background-color: #000000;
+				background-image: none;
 			}
 		}
 		/* @media only screen and (max-width: 430px) {
